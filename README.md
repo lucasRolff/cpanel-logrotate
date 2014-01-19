@@ -7,7 +7,7 @@ To add the hook into cPanel, you should use the code below:
 
 ``` bash
 /usr/local/cpanel/bin/manage_hooks \
-add script /opt/makehtaccess/makefile.py \
+add script /opt/makerotate/makefile \
 --stage post \
 --category Stats \
 --event RunAll
